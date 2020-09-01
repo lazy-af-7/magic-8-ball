@@ -44,6 +44,8 @@ class _ballState extends State<ball> {
         onPressed: () {
           pick();
         },
+        splashColor: Colors.blueAccent,
+        highlightColor: Colors.indigo,
         child: Image.asset('images/ball$number.png'),
       ),
     );
